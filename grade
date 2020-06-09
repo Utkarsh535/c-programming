@@ -1,0 +1,19 @@
+#include<stdio.h>
+void main()
+{
+int marks;
+printf("enter marks to kmow the grade");
+scanf("%d",&marks);
+if(marks>=85&&marks<101)
+printf("A grade");
+else if(marks>69&&marks<85)
+printf("B grade");
+else if(marks>54&&marks<70)
+printf("C grade");
+else if(marks>39&&marks<55)
+printf("D grade");
+else if(marks<40)
+printf("F grade");
+else
+printf("invalid input");
+}
