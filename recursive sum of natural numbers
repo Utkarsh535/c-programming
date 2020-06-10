@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+int fun(int n)
+{
+int sum=0;
+if(n!=0)
+{
+sum=n+fun(n-1);
+}
+else
+{
+return sum;
+}
+}
+
+void main()
+{
+int res;
+res=fun(4);
+printf("%d\n",res);
+}
