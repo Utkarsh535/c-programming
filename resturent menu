@@ -1,0 +1,32 @@
+#include<stdio.h>
+void main()
+{
+printf("enter any number 1 to 5 to order\n");
+int ch;
+scanf("%d",&ch);
+switch(ch)
+{
+case 1:
+printf("pizza\n");
+printf("Rs.239\n");
+break;
+case 2:
+printf("burger\n");
+printf("Rs.129\n");
+break;
+case 3:
+printf("pasta\n");
+printf("Rs.179\n");
+break;
+case 4:
+printf("french fries\n");
+printf("Rs.99\n");
+break;
+case 5:
+printf("sandwitch\n");
+printf("Rs.149\n");
+break;
+default:
+printf("invalid no.");
+}
+}
